@@ -9,3 +9,6 @@ echo "Hello World4!"
 
 echo "Hello World5!"
 
+echo "Hello World6!"
+
+hostname
