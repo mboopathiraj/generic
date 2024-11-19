@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-date >> /tmp/hello-world.log
+date > /tmp/hello-world.log
 echo "Hello World!" >> /tmp/hello-world.log
 
 echo "Hello World2!" >> /tmp/hello-world.log
