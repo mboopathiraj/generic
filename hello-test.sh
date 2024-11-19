@@ -1,14 +1,16 @@
 #!/usr/bin/env bash
-echo "Hello World!"
 
-echo "Hello World2!"
+date >> /tmp/hello-world.log
+echo "Hello World!" >> /tmp/hello-world.log
 
-echo "Hello World3!"
+echo "Hello World2!" >> /tmp/hello-world.log
 
-echo "Hello World4!"
+echo "Hello World3!" >> /tmp/hello-world.log
 
-echo "Hello World5!"
+echo "Hello World4!" >> /tmp/hello-world.log
 
-echo "Hello World6!"
+echo "Hello World5!" >> /tmp/hello-world.log
 
-hostname
+echo "Hello World6!" >> /tmp/hello-world.log
+
+hostname >> /tmp/hello-world.log
